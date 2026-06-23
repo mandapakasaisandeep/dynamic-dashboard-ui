@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+/* react-rnd: make the dragged/resized box fill with the widget card */
+.react-draggable {
+  box-sizing: border-box;
+}
+.react-draggable.react-draggable-dragging {
+  cursor: grabbing;
+}
